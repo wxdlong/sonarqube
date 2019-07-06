@@ -1,4 +1,4 @@
-FROM sonarqube:6.7.7-community
+FROM sonarqube:6.7.5
 LABEL maintainer="wxdlong@qq.com"
 
 RUN wget -q https://github.com/checkstyle/sonar-checkstyle/releases/download/4.21/checkstyle-sonar-plugin-4.21.jar -O /opt/sonarqube/extensions/plugins/checkstyle-sonar-plugin-4.21.jar && \
